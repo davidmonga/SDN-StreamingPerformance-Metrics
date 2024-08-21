@@ -1,0 +1,11 @@
+------------------------------------------------------------
+Server listening on TCP port 6000
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.1.1.3 port 6000 connected with 10.1.1.4 port 40662
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0000 sec  72.2 KBytes  59.1 Kbits/sec
+[  1] 10.0000-20.0000 sec  11.3 KBytes  9.27 Kbits/sec
+[  1] 20.0000-30.0000 sec  58.0 KBytes  47.5 Kbits/sec
+[  1] 30.0000-35.2797 sec  2.83 KBytes  4.39 Kbits/sec
+[  1] 0.0000-35.2797 sec   144 KBytes  33.5 Kbits/sec

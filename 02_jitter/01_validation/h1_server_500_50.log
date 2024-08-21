@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Server listening on UDP port 5000
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.1.1.1 port 5000 connected with 10.1.1.2 port 58654
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0000 sec  1.25 MBytes  1.05 Mbits/sec  70.016 ms 1/891 (0.11%)
+[  1] 0.0000-10.0000 sec  608 datagrams received out-of-order
+[  1] 10.0000-20.0000 sec  1.25 MBytes  1.05 Mbits/sec  64.456 ms 5/896 (0.56%)
+[  1] 10.0000-20.0000 sec  624 datagrams received out-of-order
+[  1] 20.0000-30.0000 sec  1.25 MBytes  1.05 Mbits/sec  56.196 ms 0/886 (0%)
+[  1] 20.0000-30.0000 sec  618 datagrams received out-of-order
+[  1] 0.0000-30.0045 sec  3.75 MBytes  1.05 Mbits/sec  55.941 ms 2/2675 (0.075%)
+[  1] 0.0000-30.0045 sec  1850 datagrams received out-of-order

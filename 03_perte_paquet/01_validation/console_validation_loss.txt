@@ -1,0 +1,131 @@
+
+(base) administrateur@linuxshop-3HKJZ49Y:/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/03_pourcentage_perte/01_validation$ ryu-manager controleur_udp_iperf_bandwidth.py 
+loading app controleur_udp_iperf_bandwidth.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app controleur_udp_iperf_bandwidth.py of Controller
+instantiating app ryu.controller.ofp_handler of OFPHandler
+(474522) wsgi starting up on http://0.0.0.0:8080
+(474522) accepted ('127.0.0.1', 46196)
+127.0.0.1 - - [21/Aug/2024 03:27:37] "POST /qos/update HTTP/1.1" 500 162 0.000658
+(474522) accepted ('127.0.0.1', 34402)
+127.0.0.1 - - [21/Aug/2024 03:28:57] "POST /qos/update HTTP/1.1" 500 162 0.000371
+(474522) accepted ('127.0.0.1', 48336)
+127.0.0.1 - - [21/Aug/2024 03:30:17] "POST /qos/update HTTP/1.1" 500 162 0.001182
+(474522) accepted ('127.0.0.1', 59386)
+127.0.0.1 - - [21/Aug/2024 03:31:38] "POST /qos/update HTTP/1.1" 500 162 0.001272
+(474522) accepted ('127.0.0.1', 38556)
+127.0.0.1 - - [21/Aug/2024 03:32:58] "POST /qos/update HTTP/1.1" 500 162 0.000377
+(474522) accepted ('127.0.0.1', 41888)
+127.0.0.1 - - [21/Aug/2024 03:34:18] "POST /qos/update HTTP/1.1" 500 162 0.000365
+
+
+(base) administrateur@linuxshop-3HKJZ49Y:/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/03_pourcentage_perte/01_validation$ sudo python3 main_valid_config_loss.py 
+[sudo] Mot de passe de administrateur : 
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 
+*** Adding switches:
+s1 s2 
+*** Adding links:
+(16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h1, s1) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h2, s2) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h3, s1) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h4, s2) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (s1, s2) 
+*** Configuring hosts
+h1 h2 h3 h4 
+*** Starting controller
+c0 
+*** Starting 2 switches
+s1 s2 ...(16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) 
+
+ Testing with loss: 0 % for h1-h2 and h3-h4 
+
+
+ Testing with loss: 3 % for h1-h2 and h3-h4 
+
+(3.00000% loss) (3.00000% loss) 
+ Testing with loss: 5 % for h1-h2 and h3-h4 
+
+(5.00000% loss) (5.00000% loss) 
+ Testing with loss: 7 % for h1-h2 and h3-h4 
+
+(7.00000% loss) (7.00000% loss) 
+ Testing with loss: 10 % for h1-h2 and h3-h4 
+
+(10.00000% loss) (10.00000% loss) 
+ Testing with loss: 50 % for h1-h2 and h3-h4 
+
+(50.00000% loss) (50.00000% loss) 
+
+
+
+(base) administrateur@linuxshop-3HKJZ49Y:/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/03_pourcentage_perte/01_validation/02_tcp$ ryu-manager controleur_udp_iperf_bandwidth.py 
+loading app controleur_udp_iperf_bandwidth.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app controleur_udp_iperf_bandwidth.py of Controller
+instantiating app ryu.controller.ofp_handler of OFPHandler
+(483862) wsgi starting up on http://0.0.0.0:8080
+(483862) accepted ('127.0.0.1', 35336)
+127.0.0.1 - - [21/Aug/2024 03:47:00] "POST /qos/update HTTP/1.1" 500 162 0.000657
+(483862) accepted ('127.0.0.1', 34632)
+127.0.0.1 - - [21/Aug/2024 03:48:40] "POST /qos/update HTTP/1.1" 500 162 0.001752
+(483862) accepted ('127.0.0.1', 49672)
+127.0.0.1 - - [21/Aug/2024 03:50:20] "POST /qos/update HTTP/1.1" 500 162 0.001492
+(483862) accepted ('127.0.0.1', 46780)
+127.0.0.1 - - [21/Aug/2024 03:52:01] "POST /qos/update HTTP/1.1" 500 162 0.002180
+(483862) accepted ('127.0.0.1', 37770)
+127.0.0.1 - - [21/Aug/2024 03:53:41] "POST /qos/update HTTP/1.1" 500 162 0.002774
+(483862) accepted ('127.0.0.1', 57298)
+127.0.0.1 - - [21/Aug/2024 03:55:24] "POST /qos/update HTTP/1.1" 500 162 0.000463
+
+
+(base) administrateur@linuxshop-3HKJZ49Y:/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/03_pourcentage_perte/01_validation/02_tcp$ sudo python3 main_valid_config_loss.py 
+[sudo] Mot de passe de administrateur : 
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 h4 
+*** Adding switches:
+s1 s2 
+*** Adding links:
+(16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h1, s1) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h2, s2) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h3, s1) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (h4, s2) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (s1, s2) 
+*** Configuring hosts
+h1 h2 h3 h4 
+*** Starting controller
+c0 
+*** Starting 2 switches
+s1 s2 ...(16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) (16.00Mbit 0.00000% loss) 
+
+ Testing with loss: 0 % for h1-h2 and h3-h4 
+
+
+ Testing with loss: 3 % for h1-h2 and h3-h4 
+
+(3.00000% loss) (3.00000% loss) 
+ Testing with loss: 5 % for h1-h2 and h3-h4 
+
+(5.00000% loss) (5.00000% loss) 
+ Testing with loss: 7 % for h1-h2 and h3-h4 
+
+(7.00000% loss) (7.00000% loss) 
+ Testing with loss: 10 % for h1-h2 and h3-h4 
+
+(10.00000% loss) (10.00000% loss) 
+ Testing with loss: 50 % for h1-h2 and h3-h4 
+
+(50.00000% loss) (50.00000% loss) *** Starting CLI:
+mininet> exit
+*** Stopping 1 controllers
+c0 
+*** Stopping 11 links
+...........
+*** Stopping 2 switches
+s1 s2 
+*** Stopping 4 hosts
+h1 h2 h3 h4 
+*** Done
+(base) administrateur@linuxshop-3HKJZ49Y:/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/03_pourcentage_perte/01_validation/02_tcp$ 
+
+
+
+

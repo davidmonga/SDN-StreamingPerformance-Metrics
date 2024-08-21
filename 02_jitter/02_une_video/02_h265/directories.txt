@@ -1,0 +1,6 @@
+h1_h2,1000,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/02_jitter/02_une_video/02_h265/repertoire_data/h1_h2/1000/chunks-h1_h2_bbb_h265_hls_hotes_2_delay_1000
+h1_h2,500,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/02_jitter/02_une_video/02_h265/repertoire_data/h1_h2/500/chunks-h1_h2_bbb_h265_hls_hotes_2_delay_500
+h1_h2,200,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/02_jitter/02_une_video/02_h265/repertoire_data/h1_h2/200/chunks-h1_h2_bbb_h265_hls_hotes_2_delay_200
+h1_h2,100,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/02_jitter/02_une_video/02_h265/repertoire_data/h1_h2/100/chunks-h1_h2_bbb_h265_hls_hotes_2_delay_100
+h1_h2,50,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/02_jitter/02_une_video/02_h265/repertoire_data/h1_h2/50/chunks-h1_h2_bbb_h265_hls_hotes_2_delay_50
+h1_h2,20,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/02_jitter/02_une_video/02_h265/repertoire_data/h1_h2/20/chunks-h1_h2_bbb_h265_hls_hotes_2_delay_20

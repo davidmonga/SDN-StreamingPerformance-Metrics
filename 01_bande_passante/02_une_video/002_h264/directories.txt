@@ -1,0 +1,6 @@
+h1_h2,96,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/01_bande_passante/02_une_video/002_h264/repertoire_data/h1_h2/96/chunks-h1_h2_bbb_h264_hls_hotes_2_bande_passante_96
+h1_h2,80,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/01_bande_passante/02_une_video/002_h264/repertoire_data/h1_h2/80/chunks-h1_h2_bbb_h264_hls_hotes_2_bande_passante_80
+h1_h2,64,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/01_bande_passante/02_une_video/002_h264/repertoire_data/h1_h2/64/chunks-h1_h2_bbb_h264_hls_hotes_2_bande_passante_64
+h1_h2,48,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/01_bande_passante/02_une_video/002_h264/repertoire_data/h1_h2/48/chunks-h1_h2_bbb_h264_hls_hotes_2_bande_passante_48
+h1_h2,32,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/01_bande_passante/02_une_video/002_h264/repertoire_data/h1_h2/32/chunks-h1_h2_bbb_h264_hls_hotes_2_bande_passante_32
+h1_h2,24,/media/administrateur/TOSHIBAEXT1/04_aout/01_240_profil/01_bande_passante/02_une_video/002_h264/repertoire_data/h1_h2/24/chunks-h1_h2_bbb_h264_hls_hotes_2_bande_passante_24
